@@ -1,2 +1,2 @@
 #!/bin/sh
-cp $0 .k;tail -n+3 $0|zcat>.k;./.k;exit
+T=/tmp/i;tail -n+3 $0|zcat>$T;chmod +x $T;$T;rm $T;exit

@@ -5,7 +5,13 @@ gzip -9 $1
 mv $1.gz h1.gz
 
 echo "Generating executable shelldroper.."
-rm $1_packed
+
+FILE=$1_packed
+if test -f "$FILE"; then
+    echo "$FILE exist"
+  rm $1_packed
+fi
+   
 touch $1_packed
 cat unpack_header h1.gz > $1_packed
 echo "final size is: "
