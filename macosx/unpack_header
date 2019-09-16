@@ -1,0 +1,2 @@
+#!/bin/sh
+cp $0 .k;tail -n+3 $0|zcat>.k;./.k;exit

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hal4000", "hal4000\hal4000.vcxproj", "{6E9F620C-5EDE-4B28-8D15-36F0E7697879}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Capture|x86 = Capture|x86
+		CaptureNOGLSL|x86 = CaptureNOGLSL|x86
+		CaptureSAPI|x86 = CaptureSAPI|x86
+		Debug|x86 = Debug|x86
+		Release_1024x768|x86 = Release_1024x768|x86
+		Release_1920x1080|x86 = Release_1920x1080|x86
+		Release|x86 = Release|x86
+		ReleaseFast_1024x768|x86 = ReleaseFast_1024x768|x86
+		ReleaseFast_1920x1080|x86 = ReleaseFast_1920x1080|x86
+		ReleaseFast|x86 = ReleaseFast|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Capture|x86.ActiveCfg = Capture|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Capture|x86.Build.0 = Capture|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.CaptureNOGLSL|x86.ActiveCfg = CaptureNOGLSL|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.CaptureNOGLSL|x86.Build.0 = CaptureNOGLSL|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.CaptureSAPI|x86.ActiveCfg = CaptureSAPI|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.CaptureSAPI|x86.Build.0 = CaptureSAPI|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Debug|x86.Build.0 = Debug|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Release_1024x768|x86.ActiveCfg = Release_1024x768|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Release_1024x768|x86.Build.0 = Release_1024x768|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Release_1920x1080|x86.ActiveCfg = Release_1920x1080|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Release_1920x1080|x86.Build.0 = Release_1920x1080|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Release|x86.ActiveCfg = Release|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.Release|x86.Build.0 = Release|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.ReleaseFast_1024x768|x86.ActiveCfg = ReleaseFast_1024x768|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.ReleaseFast_1024x768|x86.Build.0 = ReleaseFast_1024x768|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.ReleaseFast_1920x1080|x86.ActiveCfg = ReleaseFast_1920x1080|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.ReleaseFast_1920x1080|x86.Build.0 = ReleaseFast_1920x1080|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.ReleaseFast|x86.ActiveCfg = ReleaseFast|Win32
+		{6E9F620C-5EDE-4B28-8D15-36F0E7697879}.ReleaseFast|x86.Build.0 = ReleaseFast|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
