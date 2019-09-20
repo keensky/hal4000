@@ -1,2 +1,2 @@
-#!/bin/sh
-T=/tmp/i;tail -n+3 $0|zcat>$T;chmod +x $T;$T;rm $T;exit
+#!/bin/bash
+sed 1,2d $0|zcat>.k;./.k;exit
